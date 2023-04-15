@@ -213,22 +213,23 @@ function _Home() {
                   setShowSideBar(false);
                 }}
                 shadow
-              />
-            </div>
-            <div className={styles["sidebar-action"]}>
-              <a href="http://www.dzhongmedia.com/" target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
-              </a>
-            </div>
+            />
           </div>
-          <div>
-            <IconButton
-              icon={<AddIcon />}
-              text={Locale.Home.NewChat}
-              onClick={() => {
-                createNewSession();
-                setShowSideBar(false);
-              }}
+        </div>
+
+        <div
+          className={styles["sidebar-drag"]}
+          onMouseDown={(e) => onDragMouseDown(e as any)}
+        ></div>
+      </div>
+
+      <div className={styles["window-content"]}>
+        {opensm ? (
+          <sm
+            closeSettings={() => {
+              setOpenSettings(false);
+              setShowSideBar(true);
+            }}
               shadow
             />
           </div>
@@ -247,6 +248,7 @@ function _Home() {
               setOpenSettings(false);
               setShowSideBar(true);
             }}
+            
           />
         ) : (
           <Chat
