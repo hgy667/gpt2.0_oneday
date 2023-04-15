@@ -163,8 +163,11 @@ function _Home() {
           : styles.container
       }`}
     >
-      <div className={styles["sidebar-header"]}>
-  <div className={styles["sidebar-title"]} style={{background: "linear-gradient(135deg, #FFA500 0%, #800080 100%)"}}>ChatGPT 独众传媒</div>
+      <div
+        className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
+      >
+        <div className={styles["sidebar-header"]}>
+          <div className={styles["sidebar-title"]}>ChatGPT 独众传媒</div>
           <div className={styles["sidebar-sub-title"]}>
             <p>
             - 本网站基于ChatGPT和Github开源项目制作 
