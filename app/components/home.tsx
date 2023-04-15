@@ -185,7 +185,6 @@ function _Home() {
       -在使用过程中遇到任何问题可以联系本人 QQ。
     </p>
   </div>
-</div>
 
         
           <div className={styles["sidebar-logo"]}>
