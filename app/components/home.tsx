@@ -169,7 +169,10 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT 独众传媒</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            - 本网站基于ChatGPT和Github开源项目制作 
+            - 仅供独众传媒内部使用 切勿外传 避免网站被封！！！
+            - 本网站由何高阳开发与维护，未经允许不得用于商业用途
+            - 在使用过程中遇到任何问题可以联系本人[QQ](https://qm.qq.com/cgi-bin/qm/qr?k=9sBonSEvwvNEA-vLiJHZpL4sAD2DouCW&noverify=0&personal_qrcode_source=4)
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
