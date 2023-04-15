@@ -44,7 +44,23 @@ export default function RootLayout({
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
       
-      <details> <summary>自定义文本</summary> <p>这是我自定义的文本。</p> </details>
+      <style>
+      .fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fixed">
+      <details>
+        <summary>自定义文本</summary>
+        <p>这是我自定义的文本。</p>
+      </details>
+    </div>
       
       <body>{children}</body>
     </html>
