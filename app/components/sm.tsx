@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, HTMLProps } from "react";
 
 import EmojiPicker, { Theme as EmojiTheme } from "emoji-picker-react";
 
-import styles from "./settings.module.scss";
+import styles from "./sm.module.scss";
 
 import ResetIcon from "../icons/reload.svg";
 import CloseIcon from "../icons/close.svg";
