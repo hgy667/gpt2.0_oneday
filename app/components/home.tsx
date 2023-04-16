@@ -222,8 +222,8 @@ function _Home() {
             </div>
 
             <div className={styles["sidebar-action"]}>
-              <a href="https://s4.aconvert.com/convert/p3r68-cdx67/at7js-vpyji.svg" target="_blank">
-                <IconButton icon={<BotIcon />} shadow />
+              <a href="https://www.yuque.com/u32987515/sh30ux/te6ocp4dy2r9rhsi/edit" target="_blank">
+                <IconButton icon={<three-dots />} shadow />
               </a>
             </div>
 
