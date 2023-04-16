@@ -10,7 +10,6 @@ import styles from "./home.module.scss";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
-import smwdIcon from "../icons/smtp.svg";
 
 import BotIcon from "../icons/bot.svg";
 import AddIcon from "../icons/add.svg";
@@ -223,8 +222,8 @@ function _Home() {
             </div>
 
             <div className={styles["sidebar-action"]}>
-              <a href="https://www.yuque.com/u32987515/sh30ux/te6ocp4dy2r9rhsi/edit" target="_blank">
-              <IconButton icon={<smwdIcon />} shadow />
+              <a href="https://s4.aconvert.com/convert/p3r68-cdx67/at7js-vpyji.svg" target="_blank">
+                <IconButton icon={<BotIcon />} shadow />
               </a>
             </div>
 
