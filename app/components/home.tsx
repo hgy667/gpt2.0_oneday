@@ -220,6 +220,13 @@ function _Home() {
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
+
+            <div className={styles["sidebar-action"]}>
+              <a href="https://s4.aconvert.com/convert/p3r68-cdx67/at7js-vpyji.svg" target="_blank">
+                <IconButton icon={<GithubIcon />} shadow />
+              </a>
+            </div>
+
           </div>
           <div>
             <IconButton
