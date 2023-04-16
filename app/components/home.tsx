@@ -221,24 +221,14 @@ function _Home() {
               </a>
             </div>
           </div>
-          <div>
-            <IconButton
-              icon={<AddIcon />}
-              text={Locale.Home.NewChat}
-              onClick={() => {
-                createNewSession();
-                setShowSideBar(false);
-              }}
-              shadow
-              
-              />
-            </div>
-            <div className={styles["sidebar-action"]}>
+          
+          <div className={styles["sidebar-action"]}>
               <a href="http://www.dzhongmedia.com/" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
           </div>
+          
           <div>
             <IconButton
               icon={<AddIcon />}
