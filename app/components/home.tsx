@@ -222,7 +222,7 @@ function _Home() {
             </div>
 
             <div className={styles["sidebar-action"]}>
-              <a href="https://www.yuque.com/u32987515/sh30ux/te6ocp4dy2r9rhsi/edit" target="_blank">
+              <a href="https://www.yuque.com/u32987515/sh30ux/te6ocp4dy2r9rhsi?singleDoc# 《独众gpt v2.0 更新说明》" target="_blank">
                 <IconButton icon={<LoadingIcon />} shadow />
               </a>
             </div>
