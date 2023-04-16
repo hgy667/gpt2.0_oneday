@@ -124,10 +124,14 @@
 }
 
 .sidebar-title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  color: red;
+  background: linear-gradient(to right, orange, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 60px; /* 自定义高度 */
 }
+
 
 .sidebar-sub-title {
   font-size: 12px;
