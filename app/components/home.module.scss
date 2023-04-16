@@ -72,6 +72,8 @@
   }
 }
 
+
+
 .window-content {
   width: var(--window-content-width);
   height: 100%;
@@ -130,13 +132,46 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   height: 30px; /* 自定义高度 */
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 
 .sidebar-sub-title {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 150px; /* 自定义高度 */
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .sidebar-body {
   flex: 1;
