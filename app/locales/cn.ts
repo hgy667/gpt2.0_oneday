@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请点击左下角设置按钮输入访问密码。",
+    Unauthorized: "现在是未授权状态，电脑用户请点击左下角小齿轮按钮输入访问密码，手机用户请点击上方返回按钮找到小齿轮按钮输入访问密码。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -147,7 +147,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "我是独众传媒基于ChatGPT 3.5开发的人工智能机器人，有什么可以帮你的吗",
+    BotHello: "我是独众科技基于ChatGPT 3.5开发的人工智能机器人，有什么可以帮你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
