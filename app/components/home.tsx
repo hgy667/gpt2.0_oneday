@@ -224,13 +224,13 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://www.yuque.com/u32987515/sh30ux/tqhrznho3lx61nho?singleDoc# 《客服微信》" target="_blank">
+              <a href="https://www.yuque.com/u32987515/sh30ux/uha6vl9ehy5mirky?singleDoc# 《一天使用权说明》" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
 
             <div className={styles["sidebar-action"]}>
-              <a href="https://www.yuque.com/u32987515/sh30ux/uha6vl9ehy5mirky?singleDoc# 《一天使用权说明》" target="_blank">
+              <a href="https://www.yuque.com/u32987515/sh30ux/tqhrznho3lx61nho?singleDoc# 《客服微信》" target="_blank">
                 <IconButton icon={<LoadingIcon />} shadow />
               </a>
             </div>
