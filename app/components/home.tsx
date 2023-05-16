@@ -222,7 +222,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://www.yuque.com/u32987515/sh30ux/uha6vl9ehy5mirky?singleDoc# 《一天使用权说明》" target="_blank">
+              <a href="https://item.taobao.com/item.htm?id=715149411945&price=19.9&sourceType=item&sourceType=item&suid=a4a49392-d0e5-472f-8fc7-7f696c4c5002&shareUniqueId=21319034407&ut_sk=1.ZCZNS6t4kv0DALrP4q9p8O7v_21646297_1683704022714.Copy.1&un=d5d47e7e4f71da8f132b0f6991806569&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_abtk=gray_1_code_simpleAndroid2&tbSocialPopKey=shareItem&sp_tk=ZDA5dmRuanNxNk8%3D&cpp=1&shareurl=true&short_name=h.UFLFOwa&bxsign=scd5xc68-WeOw6E-Okwny0K1l1oBLbwdVffTU_Z5eD2ox43SmVFtEEpXgyoIPLHJTIMRE_SF89WLgdNb08NQkJPkoHKFvUcN6YnqnUc2rh9Q5WPglHD3lt_DBWwA40O7iWP&tk=d09vdnjsq6O%20CZ0001&app=chrome" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
