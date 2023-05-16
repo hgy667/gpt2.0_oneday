@@ -167,19 +167,27 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT 独众传媒 v2.0</div>
+          <div className={styles["sidebar-title"]}>ChatGPT 国内畅享版 3.5 </div>
           <div className={styles["sidebar-sub-title"]}>
             <p>
-            - 本网站基于ChatGPT和Github开源项目制作 
+            - 本站每天早晨8.00会自动更新网站密钥，
+              全天无人值守，大家自助
+              介意没有用一整天的请自行绕开   
               </p>
             <p>
             - 仅供独众传媒内部使用 切勿外传 避免网站被封！！！
               </p>
             <p>
-            - 本网站由何高阳开发与维护，未经允许不得用于商业用途
+            - 本站供大家学习使用，提高工作效率
+              不求功名，只求与时代同行！
               </p>
             <p>
-            - 在使用过程中遇到任何问题可以联系本人
+            - 对GPT还是小白的同学可自助领取教程
+              教程链接在左下角第二格点开自助
+              </p>
+             <p>
+            - 想要定制终身版的，自行联系客服！
+              左下角第三格点开
               </p>
           </div>
           <div className={styles["sidebar-logo"]}>
@@ -216,13 +224,13 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="http://www.dzhongmedia.com/" target="_blank">
+              <a href="https://www.yuque.com/u32987515/sh30ux/tqhrznho3lx61nho?singleDoc# 《客服微信》" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
 
             <div className={styles["sidebar-action"]}>
-              <a href="https://www.yuque.com/u32987515/sh30ux/te6ocp4dy2r9rhsi?singleDoc# 《独众gpt v2.0 更新说明》" target="_blank">
+              <a href="https://www.yuque.com/u32987515/sh30ux/uha6vl9ehy5mirky?singleDoc# 《一天使用权说明》" target="_blank">
                 <IconButton icon={<LoadingIcon />} shadow />
               </a>
             </div>
