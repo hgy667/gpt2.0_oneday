@@ -322,8 +322,25 @@ export function Settings(props: { closeSettings: () => void }) {
             ></input>
           </SettingItem>
        
-            
-            
+            </List>
+            <List>
+          {enabledAccessControl ? (
+            <SettingItem
+              title={Locale.Settings.AccessCode.Title}
+              subTitle={Locale.Settings.AccessCode.SubTitle}
+            >
+              <PasswordInput
+                value={accessStore.accessCode}
+                type="text"
+                placeholder={Locale.Settings.AccessCode.Placeholder}
+                onChange={(e) => {
+                  accessStore.updateCode(e.currentTarget.value);
+                }}
+              />
+            </SettingItem>
+          ) : (
+            <></>
+          )}
             
             
             
