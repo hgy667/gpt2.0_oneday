@@ -118,12 +118,12 @@ const cn = {
       Placeholder: "OpenAI API Key",
     },
     Usage: {
-      Title: "余额查询",
+      Title: "APIkey余额查询",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $${total}`;
+        return `点击会前往APIkey余额查询网站`;
       },
-      IsChecking: "正在检查…",
-      Check: "重新检查",
+      IsChecking: "加载中",
+      Check: "前往网站",
       NoAccess: "输入 API Key 或访问密码查看余额",
     },
     AccessCode: {
