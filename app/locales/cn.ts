@@ -124,7 +124,7 @@ const cn = {
       },
       IsChecking: "加载中",
       Check: "前往网站",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "请在上方输入访问密码使用网站",
     },
     AccessCode: {
       Title: "访问密码",
