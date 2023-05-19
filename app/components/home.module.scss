@@ -126,7 +126,7 @@
 }
 
 .sidebar-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   background: linear-gradient(to right, orange, purple);
   -webkit-background-clip: text;
@@ -151,12 +151,12 @@
 
 
 .sidebar-sub-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400px;
   background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  height: 210px; /* 自定义高度 */
+  height: 150px; /* 自定义高度 */
   animation-name: fadeIn;
   animation-duration: 2s;
   animation-timing-function: linear;
