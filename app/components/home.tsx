@@ -223,7 +223,7 @@ function _Home() {
 
             <div className={styles["sidebar-action"]}>
               <a href="https://www.yuque.com/u32987515/sh30ux/tqhrznho3lx61nho?singleDoc# 《客服微信》" target="_blank">
-                <IconButton icon={<LoadingIcon />} shadow />
+                <IconButton icon={<ChatGptIcon />} shadow />
               </a>
             </div>
 
