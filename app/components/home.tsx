@@ -170,12 +170,6 @@ function _Home() {
           <div className={styles["sidebar-title"]}>ChatGPT 国内畅享版 3.5 </div>
           <div className={styles["sidebar-sub-title"]}>
             <p>
-            - 本站每天早晨8.00会自动更新网站密钥，
-              全天无人值守，大家自助
-              介意没有用一整天的请自行绕开   
-              </p>
-            
-            <p>
             - 本站供大家学习使用，提高工作效率
               不求功名，只求与时代同行！
               </p>
