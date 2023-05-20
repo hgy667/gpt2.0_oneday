@@ -216,7 +216,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://item.taobao.com/item.htm?ut_sk=1.WwEoT310OW8DAPSvIV%2Bk28QV_21380790_1684371978550.TaoPassword-Weixin.ShareGlobalNavigation_1&id=719328247386&sourceType=item&suid=F225F0FD-010F-4885-A8F8-29E940F71C13&un=719db619d7a077dbb83707894294ed3d&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_abtk=gray_ShareGlobalNavigation_1_code_simpleios2&tbSocialPopKey=shareItem&sp_tk=SU04VWRNRnE2RnQ%3D&cpp=1&shareurl=true&short_name=h.UEs8uC4&bxsign=scd2fBCRf1cne3t-UqxG-XfJHmc4pJpuGZ8HEJY-Uaby6mSh06mROYqliIWTmAfi3c6G3Erc4BeT5yjjwbJf4lkPuoCDQJ9XziXeKq-pkUA1H_k7f_7ugK3OcYBSd6AMxEX&tk=IM8UdMFq6Ft&app=chrome">
+              <a href="https://item.taobao.com/item.htm?ft=t&id=719528958777">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
