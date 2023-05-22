@@ -6,6 +6,23 @@ import { getBuildConfig } from "./config/build";
 
 const buildConfig = getBuildConfig();
 
+const googleTag = `
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJMVFJ0RT5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FJMVFJ0RT5');
+  </script>
+`;
+
+const headElement = document.getElementsByTagName('head')[0];
+const firstChild = headElement.firstChild;
+headElement.insertBefore(document.createRange().createContextualFragment(googleTag), firstChild);
+
+
+
 export const metadata = {
   title: "ChatGPT 国内畅享版",
   description: "Your personal ChatGPT Chat Bot.",
@@ -24,18 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FJMVFJ0RT5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FJMVFJ0RT5');
-</script>
-        
-        
         <meta
           name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
