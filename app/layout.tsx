@@ -8,11 +8,6 @@ const buildConfig = getBuildConfig();
 
 
 
-const headElement = document.getElementsByTagName('head')[0];
-const firstChild = headElement.firstChild;
-headElement.insertBefore(document.createRange().createContextualFragment(googleTag), firstChild);
-
-
 
 export const metadata = {
   title: "ChatGPT 国内畅享版",
