@@ -216,7 +216,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://item.taobao.com/item.htm?ft=t&id=719528958777">
+              <a href="https://dzcm.yuque.com/erhvae/xzh290/iv8et2nlkf9cn180?singleDoc# 《GPT使用过程常见问题集》">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
