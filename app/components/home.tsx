@@ -170,17 +170,17 @@ function _Home() {
           <div className={styles["sidebar-title"]}>ChatGPT 国内畅享版 3.5 </div>
           <div className={styles["sidebar-sub-title"]}>
             <p>
-            - 本站供大家学习使用，提高工作效率
-              不求功名，只求与时代同行！
-              </p>
-            <p>
-            - 对GPT还是小白的同学可自助领取教程
-              教程链接在左下角第二格点开自助
-              </p>
-             <p>
-            - 想要定制终身版的，自行联系客服！
-              左下角第三格点开
-              </p>
+      - 本站供大家学习使用，提高工作效率
+        不求功名，只求与时代同行！
+    </p>
+    <p>
+      - 想要定制终身版的，自行联系客服！
+        左下角第三格点开
+    </p>
+    <p>
+      - 我们的最新版本 ChatGPT（Ai绘画版）现已上线，4.0版本也即将开通，现在注册可以免费使用:<a href="https://chatdzkj.top/"style={{ color: 'red', fontWeight: 'bold', textDecoration: 'underline' }}>入口链接（点击）</a>
+     
+    </p>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
