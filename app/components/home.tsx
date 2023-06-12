@@ -178,7 +178,7 @@ function _Home() {
         左下角第三格点开
     </p>
     <p>
-      - 我们的最新版本 ChatGPT（Ai绘画版）现已上线，4.0版本也即将开通，现在注册可以免费使用:<a href="https://chatdzkj.top/"style={{ color: 'red', fontWeight: 'bold', textDecoration: 'underline' }}>入口链接（点击）</a>
+      ☆ 我们的最新版本 ChatGPT（Ai绘画版）现已上线，4.0版本也即将开通，现在注册可以免费使用:<a href="https://chatdzkj.top/"style={{ color: 'red', fontWeight: 'bold', textDecoration: 'underline' }}>入口链接（点击）</a>
      
     </p>
           </div>
